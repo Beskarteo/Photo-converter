@@ -1,10 +1,4 @@
-import telebot
-from telebot import types
-from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton
-from PIL import Image
-from PIL import PngImagePlugin
-import os.path
-import os
+pip install -r requirements.txt
 
 token = '' # уникальный токен бота
 
