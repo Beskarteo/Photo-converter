@@ -5,9 +5,8 @@ from PIL import Image
 from PIL import PngImagePlugin
 import os.path
 import os
-#from * import keep_alive()
 
-token = ''
+token = '' # уникальный токен бота
 
 bot = telebot.TeleBot(token)
 
@@ -83,6 +82,5 @@ def converter(message, sp_sz):
     print(message.chat.first_name)
 
 
-#keep_alive()
 if __name__ == '__main__':
     bot.infinity_polling()
