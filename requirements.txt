@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.15.4
+aiogram==3.3.0
+Flask==2.2.5
+Werkzeug==2.2.3
